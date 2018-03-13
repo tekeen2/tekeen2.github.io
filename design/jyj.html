@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko" class="svgless">
+  <head>
+    <meta charset="utf-8">
+    <title>jyj</title>
+    <link rel="stylesheet" href="css/jyj1.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jyj.js"></script>
+
+  </head>
+  <body>
+    <!-- header 및 menu -->
+    <div class="wrap">
+      <header>
+        <h1><img src="images/logo.png" alt="logo"></h1>
+        <nav>
+        <ul>
+          <li><a href="#">PROJECT</a></li>
+          <li><a href="#">CONTECT</a></li>
+          <li><a href="#">COMPANY</a></li>
+          <li><a href="#">Q&A</a></li>
+        </ul>
+        <a href="#">login</a>
+        </nav>
+      </header>
+
+      <!-- 섹션 -->
+      <section class="content1">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide hover"><a href="#"><img src="images/slide1.jpg" alt="슬라이드이미지1">
+              <div class="contents">
+                <p>BMW 드라이빙센터 /  BMW DRIVING CENTER</p>
+                <div class="hoverbox">
+                    It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet
+                </div>
+              </div>
+            </a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/slide2.jpg" alt="슬라이드이미지2"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/slide3.jpg" alt="슬라이드이미지3"></a></div>
+          </div>
+      <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </section>
+      <!-- slide end -->
+      <section class="content2">
+        <div class="industry">
+          <div class="industry-text" id="aaa">
+              <div class="title">
+                <div class="box"></div><h1>상업용디자인</h1>
+              </div>
+              <p class="textbox">It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet</p>
+            <label class="button">자세히보기</label>
+            </div>
+          <div class="industry-img">
+            <a href="#"><img src="images/meetingroom.jpg" alt="회의실전경"></a>
+          </div>
+        </div>
+        <div class="home">
+          <div class="home-img">
+            <img src="images/livingroom.jpg" alt="집전경">
+          </div>
+          <div class="home-text">
+            <div class="title">
+              <div class="box"></div><h1>주거용디자인</h1>
+            </div>
+            <p class="textbox">It is a period of civil war.
+              Rebel spaceships, striking
+              from a hidden base, have won
+              their first victory against
+              the evil Galactic Empire.
+              During the battle, rebel
+              spies managed to steal secret
+              plans to the Empire's
+              ultimate weapon, the DEATH
+              STAR, an armored space
+              station with enough power to
+              destroy an entire planet</p>
+          <label class="button">자세히보기</label>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+          <ul class="list1">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보 취급방침</a></li>
+            <li><a href="#">사이트맵</a></li>
+          </ul>
+          <ul class="list2">
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+          </ul>
+          <p>서울시 마포구 망원동 망원로 3길 104<br>
+          T 02-313-1132 / F 070-8622-5523<br>
+          사업자 등록번호677-85-0057</p>
+          <small>copyrightⓒ 2017 design All right Reserved.</small>
+      </footer>
+      <!-- js -->
+      <script src="js/swiper.min.js"></script>
+      <script>
+      var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+  </div>
+<!-- 팝업 -->
+<div class="popup">
+  <button type="button" name="btnclose" class="btnclose"><i class="fas fa-times"></i></button>
+  <div class="popup-body">
+    <a href="#"><img src="images/popup.jpg" alt="팝업 메인이미지"></a>
+    <p>GEC Samsung Engineering</p>
+    <p>GEC 삼성 엔지니어링</p>
+    <p>LOCAL | Seoul</p>
+    <p>SPACE FORM | Lobby, Auditorium. Conferece Room. Excutive Room</p>
+    <ul>
+      <li><a href="#"><img src="images/popup-bottom1.jpg" alt="팝업아래1"></a></li>
+      <li><a href="#"><img src="images/popup-bottom2.jpg" alt="팝업아래2"></a></li>
+      <li><a href="#"><img src="images/popup-bottom3.jpg" alt="팝업아래3"></a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="login-popup">
+  <div class="login-popup-body">
+
+  </div>
+
+</div>
+  </body>
+</html>
